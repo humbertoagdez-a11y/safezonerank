@@ -79,6 +79,7 @@ export interface SiteConfig {
   lastUpdated: string
   copyrightYear: number
   methodology: string
+  contactEmail: string
   affiliateDisclosure: string
   heroStats: [HeroStat, HeroStat, HeroStat]
   trustBadges: [TrustBadge, TrustBadge, TrustBadge]

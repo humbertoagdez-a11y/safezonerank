@@ -23,17 +23,18 @@ export const SITE: SiteConfig = {
   headline:
     'Las 3 VPNs que Usan los que Saben en 2026 (Probadas y Rankeadas)',
   subheadline:
-    'Tu proveedor de internet ve todo lo que hacés online. Estos son los únicos servicios que realmente lo impiden.',
+    'Tu proveedor de internet ve todo lo que hacés online. Nosotros probamos las únicas herramientas que realmente lo impiden — para que vos elijas con información real.',
   lastUpdated: 'Junio 2026',
   copyrightYear: 2026,
   methodology: 'Metodología independiente',
+  contactEmail: 'humbertoagdez@gmail.com',
   affiliateDisclosure:
     'SafeZoneRank participa en programas de afiliados. Cuando hacés clic en los enlaces y realizás una compra, podemos recibir una comisión sin costo adicional para vos. Esto nunca afecta nuestro ranking ni el precio que pagás.',
   // Prueba social mostrada en el hero.
   heroStats: [
-    { value: '+14 millones de usuarios protegidos' },
-    { value: '137 países disponibles' },
-    { value: 'Desde $1.99/mes' },
+    { value: '+14M usuarios protegidos globalmente' },
+    { value: '137 países · cobertura global' },
+    { value: 'Protección desde $1.99/mes' },
   ],
   trustBadges: [
     { icon: 'ShieldCheck', label: 'Probadas en LATAM y España' },

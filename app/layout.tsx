@@ -4,6 +4,7 @@
 import type { Metadata } from 'next'
 import { Inter, Geist_Mono } from 'next/font/google'
 import { SITE } from '@/config/affiliates'
+import SchemaMarkup from '@/components/SchemaMarkup'
 import './globals.css'
 
 const inter = Inter({
@@ -65,6 +66,7 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${inter.variable} ${geistMono.variable}`}>
       <body className="bg-surface-base font-sans text-accent-primary antialiased">
+        <SchemaMarkup config={SITE} contactEmail={SITE.contactEmail} />
         {children}
       </body>
     </html>
